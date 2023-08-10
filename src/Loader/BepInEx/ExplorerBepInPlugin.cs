@@ -1,11 +1,12 @@
-﻿#if BIE
+#if BIE
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
 using UnityExplorer.Config;
 using UnityExplorer.Loader.BIE;
+
 #if CPP
-using BepInEx.IL2CPP;
+using BepInEx.Unity.IL2CPP;
 #endif
 
 namespace UnityExplorer
